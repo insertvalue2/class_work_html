@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+/* 색상 변경 */
+:root {
+  --primary_01: #5c6bc0;
+  --primary_02: #ebddfc;
+  --primary_03: #dfe7fc;
+  --point_01: #263695;
+  --line_01: #9d9d9d;
+  --line_02: #cdcdcd;
+  --basic_03: #333;
+  --basic_05: #555;
+  --basic_07: #777;
+  --basic_09: #999;
+  --back_01: #f7f7f7;
+  --back_02: #f2f3f8;
+  --back_03: #c8cfce;
+  --def_wh: #fff;
+  --def_bl: #000;
+}
+
+* {
+  color: var(--basic_03);
+  font-family: "Pretendard-Regular";
+  /* 스크롤 숨김 */
+  scrollbar-width: none;
+}
+
+/* commmon */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap {
+  height: 100%;
+  width: 100vw;
+}
+
+#header {
+      background-color: var(--def_wh);
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      border-bottom: 1px solid var(--line_02);
+      padding: 0 16px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #dfe7fc;
+}
+
+
+
+
